@@ -6,13 +6,13 @@ using namespace std;
 class Button {
 public:
     virtual void render() = 0;
-    virtual ~Button() {}
+    virtual ~Button() {}    //destractors
 };
 
 class Checkbox {
 public:
     virtual void render() = 0;
-    virtual ~Checkbox() {}
+    virtual ~Checkbox() {}  //destractors
 };
 
 // Step 2: Concrete Products for Windows
